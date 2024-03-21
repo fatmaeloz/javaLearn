@@ -38,7 +38,18 @@ public class task18 {
         }else {
             System.out.println("Dik Ucgen Degildir");
         }
+      /*  private static void dikucgen(int x, int y, int z) {
 
+            if ( (Math.pow(y, 2)) + (Math.pow(x, 2)) == Math.pow(z, 2)||  (Math.pow(y, 2)) + (Math.pow(z, 2)) == Math.pow(x, 2)
+           || Math.pow(z,2)+Math.pow(x,2)==Math.pow(y,2)){
+                System.out.println("dik ucgendir.");
+
+            }else System.out.println("dıkucgen değildir.");
+
+
+        }
+
+       */
     }
 
 }

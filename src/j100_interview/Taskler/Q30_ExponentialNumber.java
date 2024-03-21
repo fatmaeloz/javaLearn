@@ -11,7 +11,7 @@ public class Q30_ExponentialNumber {
 
     // 4, 3 --> 4^3= 4*4*4 = 64
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+      /*  Scanner scanner = new Scanner(System.in);
 
         System.out.print("Taban değerini girin: ");
         int taban = scanner.nextInt();
@@ -28,6 +28,31 @@ public class Q30_ExponentialNumber {
 
         System.out.println("Sonuç: " + kuvvet);
 
-        scanner.close();
+        scanner.close();*/
+
+            Scanner input = new Scanner(System.in);
+            System.out.println("gakgom taban girisin : ");
+            int taban = input.nextInt();
+            System.out.println("gakgom üss girisin : ");
+            int uss = input.nextInt();
+            int sonuc = 1;
+
+            System.out.println("   ***   for lopp   ***   ");
+            //  for (int i = 1; i <= uss; i++) {
+            //      sonuc *= taban;
+            //  }
+            System.out.println("sonuc = " + sonuc);//
+
+
+            System.out.println("   ***   while lopp   ***   ");
+            while (uss != 0) {
+
+                sonuc *= taban;
+                uss--;
+            }
+            System.out.println("sonuc = " + sonuc);//
+
+        }
     }
-    }
+
+

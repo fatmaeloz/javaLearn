@@ -4,6 +4,20 @@ public class Q44_PrintArray {
     // and prints all the element
 
     public static void main(String[] args) {
+        String arr[] = {"Yucel", "Ebru", "Saim", "Behide", "Semra"};
+        printArray(arr);
 
+
+
+    }//main sonu
+
+    private static void printArray(String[] arr) {
+
+        for (String avuc:arr ) {
+            System.out.print(avuc+", ");
+        }
     }
-}
+}//Class sonu
+
+    
+

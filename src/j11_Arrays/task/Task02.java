@@ -20,6 +20,9 @@ public class Task02 {
             System.out.println(Arrays.toString(arr));
             System.out.println(sum);
 
+
+            }
         }
-    }
+
+
 
