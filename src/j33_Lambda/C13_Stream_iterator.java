@@ -74,6 +74,7 @@ public class C13_Stream_iterator {
         }
 
 
+
         private static int ameleTopla(int x) {
             int toplam=0;
             for (int i = 1; i <=x; i++) {
