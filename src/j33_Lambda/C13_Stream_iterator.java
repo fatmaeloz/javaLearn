@@ -73,6 +73,7 @@ public class C13_Stream_iterator {
             //range(startInclusive,endExclusive);-> 1'lik artımlı bir adımla startInclusive'den (dahil) endExclusive'e (hariç) kadar sıralı bir IntStream return eder.
         }
 
+
         private static int ameleTopla(int x) {
             int toplam=0;
             for (int i = 1; i <=x; i++) {
